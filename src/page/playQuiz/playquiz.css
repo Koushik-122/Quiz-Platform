@@ -1,0 +1,40 @@
+.main{
+    margin: 50px;
+    border-radius: 5px;
+    background-image:url(../../components/image/background.png) ;
+}
+
+
+.heading{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+.quizd{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10pxS;
+}
+
+
+
+.enter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: 30px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.quiz_title{
+    display: flex;
+    font-weight: bold;
+    margin: 10px;
+    justify-content: center;
+}

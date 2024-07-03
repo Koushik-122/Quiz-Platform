@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin-top:100px;
+  border: none;
+  border-radius: 10px;
+  height: 75vh;
+  width: 70vw;
+  background-color: bisque;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: 2px 4px 4px black;
+}
+
+.img{
+  height: 180px;
+  width: 180px;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url("../../components/image/congo.gif");
+  background-size: cover;
+}
+
+.Done{
+  margin: 10px;
+  border-radius: 10px;
+  border: 4px;
+}
+

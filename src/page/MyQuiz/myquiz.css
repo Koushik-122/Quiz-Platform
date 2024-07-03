@@ -1,0 +1,49 @@
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.quiz_table{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+
+}
+
+.table-sno {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 95vw;
+  }
+
+  .Title {
+    text-align: right;
+    overflow-wrap: "break-word";
+    width: 10vw;
+  }
+
+  @media screen and (max-width:750px) {
+    .tableHead{
+        display: none;
+    }
+    .quiz_table{
+        border:none
+    }
+    .Title{
+        text-align: left;
+        
+        width:15vw;
+    
+           }
+         
+}
+
+.tableHead{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+  }
